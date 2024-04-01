@@ -1,7 +1,9 @@
+body {background: linear-gradient(to top, #000000 0%,#8d8d8d  100%);}
+
 /* NAV BAR */
 .topnav {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: linear-gradient(to bottom, #eae5e5 0%,#C0C0C0  100%);
+    background: linear-gradient(to bottom, #e6e3e3 0%,#9b9b9b  100%);
     overflow: hidden;
   }
   
@@ -12,10 +14,21 @@
     padding: 20px 24px;
     text-decoration: none;
     font-size: 18px;
-    transition: 2s;
   }
 
   .topnav a:hover {
-    transition: 2s;
-    background: linear-gradient(to bottom, #fdda15 0%,#FFD700  100%);
-    color: rgb(0, 0, 0); }
+    background: linear-gradient(to bottom, #faeea6 0%,#f7de4d  100%);
+    color:#780000;
+    font-weight: bold;}
+  
+
+  /* TITLE */
+    .title h1 {
+      text-align: center;
+      margin-left: 10%;
+      margin-right: 10%;
+      padding: 6%;
+      background: linear-gradient(to right, #cbc49e 0%,#ecd242, #cbc49e 100%);}
+
+  .title {font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;}
