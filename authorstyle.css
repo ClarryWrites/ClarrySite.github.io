@@ -21,5 +21,21 @@ body {background: linear-gradient(to top, #000000 0%,#8d8d8d  100%);}
     color:#780000;
     font-weight: bold;}
 
-    .Apic {padding: 20%;}
-    img {border: 8px solid #000000;}
+    .Pics {height: 335px;
+      padding: 16px;
+      margin: 40px;
+      display: flex;
+      justify-content: space-between;}
+    .authorPic {border: 8px solid #000000;}
+
+    .bio {font-family: Georgia, 'Times New Roman', Times, serif;
+          font-size: large;
+          color: #faeea6;
+          text-shadow: 0px 0px 4px #f7de4d;
+          margin-top: 30px;
+          margin-bottom: 75px;}
+
+    
+    footer {color:#000000;
+      background: linear-gradient(to bottom, #e6e3e3 0%,#9b9b9b  100%);
+      padding: 3px;}

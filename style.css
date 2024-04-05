@@ -32,3 +32,7 @@ body {background: linear-gradient(to top, #000000 0%,#8d8d8d  100%);}
 
   .title {font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;}
+
+  footer {color:#000000;
+    background: linear-gradient(to bottom, #e6e3e3 0%,#9b9b9b  100%);
+    padding: 3px;}
