@@ -38,4 +38,20 @@ body {background: linear-gradient(to top, #000000 0%,#8d8d8d  100%);}
     
     footer {color:#000000;
       background: linear-gradient(to bottom, #e6e3e3 0%,#9b9b9b  100%);
-      padding: 3px;}
+      padding: 1px;}
+
+      .Creds {height: 0px;
+        padding: 10px;
+        margin: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;}
+
+      .Socials {height: 0px;
+        padding: 10px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;}
