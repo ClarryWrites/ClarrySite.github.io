@@ -21,13 +21,33 @@ body {background: linear-gradient(to top, #000000 0%,#8d8d8d  100%);}
     color:#780000;
     font-weight: bold;}
 
-.Newsletter {display: flex;
+.News {display: flex;
         justify-content: space-between;}
     .Welcome {margin: 38px;
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-size: 20px;
             color: #faeea6;
             text-shadow: 0px 0px 4px #f7de4d;}
+    .Formm {margin: 50px;
+      margin-right: 230px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 20px;
+      color: #faeea6;
+      text-shadow: 0px 0px 4px #f7de4d;}
+
+    input[type=text] {
+      width: 201%;
+      padding: 12px 10px;
+      margin: 8px 0;
+      box-sizing: border-box;}
+
+    input[type=submit] {margin-top: 10px;
+      padding: 12px 15px;
+      background-color: white;}
+
+    input[type=submit]:hover {background-color: gray;
+      color: white;}
+    
 
     footer {color:#000000;
         background: linear-gradient(to bottom, #e6e3e3 0%,#9b9b9b  100%);
