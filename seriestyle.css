@@ -1,0 +1,89 @@
+body {background: linear-gradient(to top, #000000 0%,#8d8d8d  100%);}
+
+/* NAV BAR */
+.topnav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to bottom, #e6e3e3 0%,#9b9b9b  100%);
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 20px 24px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .topnav a:hover {
+    background: linear-gradient(to bottom, #faeea6 0%,#f7de4d  100%);
+    color:#780000;
+    font-weight: bold;}
+  
+
+    .Series {
+        margin: 50px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 260px 260px 260px;
+        grid-template-rows: 360px 360px;
+        gap: 70px;
+      }
+      
+      .TAOPAB {
+        background-color: #780000;
+        border: 5px solid black;
+      }
+
+      .OceanM {
+        background-color: #780000;
+        border: 5px solid black;
+      }
+
+      .ShadowS {
+        background-color: #780000;
+        border: 5px solid black;
+      }
+
+      .Nineteen {
+        background-color: #780000;
+        border: 5px solid black;
+      }
+
+      .CITL {
+        background-color: #780000;
+        border: 5px solid black;
+      }
+
+      .Palaria {
+        background-color: #780000;
+        border: 5px solid black;
+      }
+
+      .image {width: 150px;
+            height: 235px;
+            margin-top: 12px;}
+
+    p {font-size: 20px;}
+
+
+  footer {color:#000000;
+    background: linear-gradient(to bottom, #e6e3e3 0%,#9b9b9b  100%);
+    padding: 3px;}
+
+    .Creds {height: 0px;
+      padding: 10px;
+      margin: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;}
+
+    .Socials {height: 0px;
+      padding: 10px;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;}
